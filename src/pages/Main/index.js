@@ -26,7 +26,7 @@ export default function Main() {
     { useNativeDriver: true },
   );
 
-  function onHandlerStateChange(event) {
+  function onHandlerStateChanged(event) {
     if (event.nativeEvent.oldState === State.ACTIVE) {
       let opened = false;
       const { translationY } = event.nativeEvent;
