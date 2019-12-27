@@ -30,3 +30,19 @@ export const NavText = styled.Text`
   color: #FFF;
   margin-left: 20px;
 `;
+
+export const SignOutButtom = styled.TouchableOpacity`
+  border-width: ${StyleSheet.hairlineWidth}px;
+  border-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px; 
+  margin-top: 15px;
+`;
+
+export const SignOutButtomText = styled.Text`
+   font-size: 13px;
+   color: #FFF;
+   font-weight: bold;
+ `;
